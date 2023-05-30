@@ -57,10 +57,8 @@ The Bi-ControlNet architecture, which separates the detection of the HED boundar
 | MMPose | SynAP(3K)    | Rhino       | 83.3 | 78.7 | 68.6 | 71.9      | 55.8   | 40.3   | 83.8 | 70.2  | 35.9 | 87.2| 64.9    |
 |MMPose	|ControlNet(3K)|	Rhino	|68.3	|67.3	|66.6	|72.4	|59.4	|51.1	|81.2	|69.2	|51.7	|81.2	|65.8|
 |MMPose	|Bi-ControlNet(3K)|	Rhino	|80.6	|77.3|	72.0|	85.0	|67.1	|46.0|	**91.1**	|77.3	|46.3	|86.8	|71.5|
-<p align="center">
-<img src="figure/controlnet_ablation3.jpg" >
-</p>
 
+![Alt Text](figure/controlnet_ablation3.jpg)
 ## Experiment
 To generate your own synthetic dataset, you need to first prepare some animal images as templates. In our work, we used 
 Blender to rig the animal CAD models and rendered a large number of animal template images. You can download these from 
