@@ -45,7 +45,7 @@ The Bi-ControlNet architecture, which separates the detection of the HED boundar
 | MMPose | R(99)+SPAC(3K)| Rhino       | 95.9    |99.7| 98.0 | 81.8 | 97.5      | 96.4   | 97.1   | **94.2** | 96.5  | 96.2   | **98.5**| 
 
 ### A comparative analysis of different types of synthetic data.
-| Method | Training Set | Test Animal | Eye  | Nose | Neck | Shoulders | Elbows | F-Paws | Hips | Kness | B-Paws | RoT  | Average |
+| Method | Training Set | Test Animal |  Average |Eye  | Nose | Neck | Shoulders | Elbows | F-Paws | Hips | Kness | B-Paws | RoT  |
 |--------|--------------|-------------|------|------|------|-----------|--------|--------|------|-------|--------|------|---------|
 | MMPose | R(99)        | Zebra       |**97.3**|**95.8** | **83.2** | 78.8      | 77.1   |**62.6**  | 86.0 | 74.9  | 59.8 | 82.4| 78.7    |
 | MMPose | Simple(3K)   | Zebra       | 30.7 | 19.9 | 31.1 | 48.0      | 34.1   | 36.4   | 41.9 | 38.3  | 34.0 | 45.6| 36.7    |
