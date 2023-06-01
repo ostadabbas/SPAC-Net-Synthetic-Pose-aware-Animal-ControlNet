@@ -1,3 +1,4 @@
+#the code is based on ControlNet https://github.com/lllyasviel/ControlNet
 from share import *
 import config
 import os

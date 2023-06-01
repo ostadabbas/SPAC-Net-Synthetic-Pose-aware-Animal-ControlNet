@@ -1,3 +1,4 @@
+#the code is based on ControlNet https://github.com/lllyasviel/ControlNet
 import argparse
 
 from share import *
