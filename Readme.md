@@ -125,6 +125,11 @@ If you use our code, datasets or models in your research, please cite with:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+@article{jiang2022prior,
+  title={Prior-Aware Synthetic Data to the Rescue: Animal Pose Estimation with Very Limited Real Data},
+  author={Jiang, Le and Liu, Shuangjun and Bai, Xiangyu and Ostadabbas, Sarah},
+  year={2022}
+}
 ```
 ## Acknowledgement
 Thanks for the open-source
