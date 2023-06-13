@@ -6,7 +6,7 @@ import config
 import os
 import cv2
 import einops
-import gradio as gr
+#import gradio as gr
 import numpy as np
 import torch
 import random
@@ -23,9 +23,9 @@ from cldm.model import create_model, load_state_dict
 from cldm.ddim_hacked import DDIMSampler
 from PIL import Image
 import random
-class seg2image_batch(pl.LightningModule):
+class hed2image_batch(pl.LightningModule):
     def __init__(self, opt):
-        super(seg2image_batch, self).__init__()
+        super(hed2image_batch, self).__init__()
         self.input_folder = opt.input_folder
         self.output_folder = opt.output_folder
         self.batch_size = opt.batch_size
@@ -195,7 +195,7 @@ class seg2image_batch(pl.LightningModule):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='controlnet_seg2image_batchprocessing')
+    parser = argparse.ArgumentParser(description='controlnet_hed2image_batchprocessing')
     parser.add_argument('--input_folder', type=str, default='test/')
     parser.add_argument('--output_folder', type=str, default='output/')
     parser.add_argument('--bg_folder', type=str, default='background')
@@ -217,5 +217,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if not os.path.exists(args.output_folder):
         os.makedirs(args.output_folder)
-    seg_model = seg2image_batch(args)
-    seg_model.save_result()
+    hed_model = hed2image_batch(args)
+    hed_model.save_result()
